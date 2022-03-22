@@ -25,14 +25,20 @@
   text-decoration: line-through;
 }
 
+.todos {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
 .todo-input {
   display: block;
-  width: 100%;
-  padding: 10px 15px;
   appearance: none;
+  padding: 10px 15px;
+  margin: auto;
+  width: 70%;
   border: none;
   background-color: #f3f3f3;
-  margin-top: 15px;
   font-size: 20px;
   outline: none;
 }

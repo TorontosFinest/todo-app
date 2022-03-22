@@ -38,8 +38,10 @@ export class TodosComponent implements OnInit {
   }
 
   addTodo(){
+    if(this.inputTodo.length>0){
     this.todos.push({content: this.inputTodo, completed: false});
     this.inputTodo = ""
+    }
   }
 
 }
